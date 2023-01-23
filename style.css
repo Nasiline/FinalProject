@@ -1,0 +1,104 @@
+body {
+    background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+  }
+
+h1 {
+    text-align: center;
+    color: #d2e284;
+    font-size: 40px;
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    border: 10px;
+  }
+
+  h2 {
+    text-align: center;
+    color: #184ab5;
+    font-size: 30px;
+    margin: 0;
+    padding: 20px;
+  }
+
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 275px;
+    padding: 20px 20px;
+    border-style: none;
+  }
+
+  p {
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin: 10px;
+    padding: 20px;
+    line-height: 2;
+  }
+  .learn-more {
+    display: block;
+    margin: 0px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .learn-more:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  button {
+    border-radius: 25px;
+    margin: 0 auto;
+    display: block;
+    background-color: transparent;
+    border: 1px solid #184ab5;
+    color: #184ab5;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 22px;
+    padding: 12px 18px;
+    text-decoration: none;
+    transition: all 200ms ease;
+    box-shadow: 15px;
+    font-family: "Times New Roman", Times, serif;
+  }
+  button:hover {
+    color: #f6c2eb;
+    background: #66746d;
+    cursor: pointer;
+  }
+
+  h3 {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 15px;
+  }
+  .blinking {
+    margin: 20% 45% 0;
+    display: inline-block;
+
+    font-size: 2em;
+
+    border-bottom: 10px solid #9ae2ff;
+    animation-name: blinking;
+    animation-duration: 1s;
+    animation-iteration-count: 100;
+    text-align: center;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  @keyframes blinking {
+    50% {
+      border-color: #ffcd5f;
+    }
+  }
+  .nassy {
+    text-decoration: none;
+    font-weight: bold;
+  }
